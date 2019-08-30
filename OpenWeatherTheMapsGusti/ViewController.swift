@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  OpenWeatherTheMapsGusti
 //
-//  Created by Ari Munandar on 26/08/19.
+//  Created by Gusti Hidayat on 26/08/19.
 //  Copyright © 2019 Gusti Hidayat. All rights reserved.
 //
 
