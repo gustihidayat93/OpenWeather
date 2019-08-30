@@ -3,18 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63D5335D6BFC7AFDBFDFFD59 /* Pods_OpenWeatherTheMapsGusti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5655A41BFF4DD12C5A2E1DF4 /* Pods_OpenWeatherTheMapsGusti.framework */; };
+		70B2648E2316A17100F0BDCB /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B2648D2316A17100F0BDCB /* APIModel.swift */; };
 		70CEC40E23140F2100C0A34D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC40D23140F2100C0A34D /* AppDelegate.swift */; };
 		70CEC41023140F2100C0A34D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC40F23140F2100C0A34D /* ViewController.swift */; };
 		70CEC41323140F2100C0A34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC41123140F2100C0A34D /* Main.storyboard */; };
 		70CEC41523140F2200C0A34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC41423140F2200C0A34D /* Assets.xcassets */; };
 		70CEC41823140F2200C0A34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC41623140F2200C0A34D /* LaunchScreen.storyboard */; };
+		70CEC42423140FD500C0A34D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC42223140FD500C0A34D /* HomeViewController.swift */; };
+		70CEC42523140FD500C0A34D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC42323140FD500C0A34D /* HomeViewController.xib */; };
+		70CEC4292314118800C0A34D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC4282314118800C0A34D /* MainViewController.swift */; };
+		70CEC42D231415E000C0A34D /* HourlyForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC42B231415E000C0A34D /* HourlyForecastViewController.swift */; };
+		70CEC42E231415E000C0A34D /* HourlyForecastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC42C231415E000C0A34D /* HourlyForecastViewController.xib */; };
+		70CEC4322314417000C0A34D /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC4302314417000C0A34D /* HomeTableViewCell.swift */; };
+		70CEC4332314417000C0A34D /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70CEC4312314417000C0A34D /* HomeTableViewCell.xib */; };
+		70CEC44223153ADA00C0A34D /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44123153ADA00C0A34D /* ContainerController.swift */; };
+		70CEC44523153B7100C0A34D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44423153B7100C0A34D /* Protocols.swift */; };
+		70CEC44723153BBF00C0A34D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44623153BBF00C0A34D /* MenuOption.swift */; };
+		70CEC44A23153C6100C0A34D /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44923153C6100C0A34D /* MenuController.swift */; };
+		70CEC44D23153CA000C0A34D /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44C23153CA000C0A34D /* SettingsController.swift */; };
+		70CEC45023153D1F00C0A34D /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CEC44F23153D1F00C0A34D /* MenuOptionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5655A41BFF4DD12C5A2E1DF4 /* Pods_OpenWeatherTheMapsGusti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeatherTheMapsGusti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D16D454E9B87353D477487 /* Pods-OpenWeatherTheMapsGusti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherTheMapsGusti.release.xcconfig"; path = "Target Support Files/Pods-OpenWeatherTheMapsGusti/Pods-OpenWeatherTheMapsGusti.release.xcconfig"; sourceTree = "<group>"; };
+		58ACCA72DBAA85707B1F2698 /* Pods-OpenWeatherTheMapsGusti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeatherTheMapsGusti.debug.xcconfig"; path = "Target Support Files/Pods-OpenWeatherTheMapsGusti/Pods-OpenWeatherTheMapsGusti.debug.xcconfig"; sourceTree = "<group>"; };
+		70B2648D2316A17100F0BDCB /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		70CEC40A23140F2100C0A34D /* OpenWeatherTheMapsGusti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherTheMapsGusti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CEC40D23140F2100C0A34D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70CEC40F23140F2100C0A34D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,19 @@
 		70CEC41423140F2200C0A34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70CEC41723140F2200C0A34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70CEC41923140F2200C0A34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CEC42223140FD500C0A34D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		70CEC42323140FD500C0A34D /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		70CEC4282314118800C0A34D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		70CEC42B231415E000C0A34D /* HourlyForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastViewController.swift; sourceTree = "<group>"; };
+		70CEC42C231415E000C0A34D /* HourlyForecastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyForecastViewController.xib; sourceTree = "<group>"; };
+		70CEC4302314417000C0A34D /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		70CEC4312314417000C0A34D /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		70CEC44123153ADA00C0A34D /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		70CEC44423153B7100C0A34D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		70CEC44623153BBF00C0A34D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		70CEC44923153C6100C0A34D /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		70CEC44C23153CA000C0A34D /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		70CEC44F23153D1F00C0A34D /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D5335D6BFC7AFDBFDFFD59 /* Pods_OpenWeatherTheMapsGusti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70B2648C2316A12100F0BDCB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				70B2648D2316A17100F0BDCB /* APIModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		70B264A72316DB0A00F0BDCB /* MenuOption */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44623153BBF00C0A34D /* MenuOption.swift */,
+			);
+			path = MenuOption;
+			sourceTree = "<group>";
+		};
 		70CEC40123140F2100C0A34D = {
 			isa = PBXGroup;
 			children = (
 				70CEC40C23140F2100C0A34D /* OpenWeatherTheMapsGusti */,
 				70CEC40B23140F2100C0A34D /* Products */,
+				D0703933C5537BD99AFF40A7 /* Pods */,
+				9FDD259FFCAB8B093DE69E7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +105,11 @@
 		70CEC40C23140F2100C0A34D /* OpenWeatherTheMapsGusti */ = {
 			isa = PBXGroup;
 			children = (
+				70CEC45623155FC100C0A34D /* Common */,
+				70CEC44323153B3200C0A34D /* Utils */,
+				70CEC42123140F8700C0A34D /* Controller */,
+				70CEC42023140F7E00C0A34D /* View */,
+				70CEC41F23140F6B00C0A34D /* Model */,
 				70CEC40D23140F2100C0A34D /* AppDelegate.swift */,
 				70CEC40F23140F2100C0A34D /* ViewController.swift */,
 				70CEC41123140F2100C0A34D /* Main.storyboard */,
@@ -64,6 +120,128 @@
 			path = OpenWeatherTheMapsGusti;
 			sourceTree = "<group>";
 		};
+		70CEC41F23140F6B00C0A34D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70B264A72316DB0A00F0BDCB /* MenuOption */,
+				70B2648C2316A12100F0BDCB /* API */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70CEC42023140F7E00C0A34D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44E23153CF400C0A34D /* Cells */,
+				70CEC4302314417000C0A34D /* HomeTableViewCell.swift */,
+				70CEC4312314417000C0A34D /* HomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70CEC42123140F8700C0A34D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44B23153C9000C0A34D /* SettingsController */,
+				70CEC44823153C3A00C0A34D /* MenuController */,
+				70CEC43F23153A7900C0A34D /* ContainerController */,
+				70CEC42A2314120900C0A34D /* HourlyforecastViewController */,
+				70CEC4272314115D00C0A34D /* HomeViewController */,
+				70CEC4262314110500C0A34D /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70CEC4262314110500C0A34D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC4282314118800C0A34D /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		70CEC4272314115D00C0A34D /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC42223140FD500C0A34D /* HomeViewController.swift */,
+				70CEC42323140FD500C0A34D /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		70CEC42A2314120900C0A34D /* HourlyforecastViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC42B231415E000C0A34D /* HourlyForecastViewController.swift */,
+				70CEC42C231415E000C0A34D /* HourlyForecastViewController.xib */,
+			);
+			path = HourlyforecastViewController;
+			sourceTree = "<group>";
+		};
+		70CEC43F23153A7900C0A34D /* ContainerController */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44123153ADA00C0A34D /* ContainerController.swift */,
+			);
+			path = ContainerController;
+			sourceTree = "<group>";
+		};
+		70CEC44323153B3200C0A34D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44423153B7100C0A34D /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		70CEC44823153C3A00C0A34D /* MenuController */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44923153C6100C0A34D /* MenuController.swift */,
+			);
+			path = MenuController;
+			sourceTree = "<group>";
+		};
+		70CEC44B23153C9000C0A34D /* SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44C23153CA000C0A34D /* SettingsController.swift */,
+			);
+			path = SettingsController;
+			sourceTree = "<group>";
+		};
+		70CEC44E23153CF400C0A34D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				70CEC44F23153D1F00C0A34D /* MenuOptionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		70CEC45623155FC100C0A34D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9FDD259FFCAB8B093DE69E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5655A41BFF4DD12C5A2E1DF4 /* Pods_OpenWeatherTheMapsGusti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0703933C5537BD99AFF40A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58ACCA72DBAA85707B1F2698 /* Pods-OpenWeatherTheMapsGusti.debug.xcconfig */,
+				56D16D454E9B87353D477487 /* Pods-OpenWeatherTheMapsGusti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70CEC41C23140F2200C0A34D /* Build configuration list for PBXNativeTarget "OpenWeatherTheMapsGusti" */;
 			buildPhases = (
+				767A8801B254C0ECA19B9D3C /* [CP] Check Pods Manifest.lock */,
 				70CEC40623140F2100C0A34D /* Sources */,
 				70CEC40723140F2100C0A34D /* Frameworks */,
 				70CEC40823140F2100C0A34D /* Resources */,
+				6856843516E791F9108F3E72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +302,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CEC42E231415E000C0A34D /* HourlyForecastViewController.xib in Resources */,
 				70CEC41823140F2200C0A34D /* LaunchScreen.storyboard in Resources */,
 				70CEC41523140F2200C0A34D /* Assets.xcassets in Resources */,
 				70CEC41323140F2100C0A34D /* Main.storyboard in Resources */,
+				70CEC4332314417000C0A34D /* HomeTableViewCell.xib in Resources */,
+				70CEC42523140FD500C0A34D /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6856843516E791F9108F3E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenWeatherTheMapsGusti/Pods-OpenWeatherTheMapsGusti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpenWeatherTheMapsGusti/Pods-OpenWeatherTheMapsGusti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenWeatherTheMapsGusti/Pods-OpenWeatherTheMapsGusti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767A8801B254C0ECA19B9D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenWeatherTheMapsGusti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70CEC40623140F2100C0A34D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CEC44D23153CA000C0A34D /* SettingsController.swift in Sources */,
+				70CEC4322314417000C0A34D /* HomeTableViewCell.swift in Sources */,
 				70CEC41023140F2100C0A34D /* ViewController.swift in Sources */,
+				70B2648E2316A17100F0BDCB /* APIModel.swift in Sources */,
 				70CEC40E23140F2100C0A34D /* AppDelegate.swift in Sources */,
+				70CEC44723153BBF00C0A34D /* MenuOption.swift in Sources */,
+				70CEC44523153B7100C0A34D /* Protocols.swift in Sources */,
+				70CEC44A23153C6100C0A34D /* MenuController.swift in Sources */,
+				70CEC44223153ADA00C0A34D /* ContainerController.swift in Sources */,
+				70CEC45023153D1F00C0A34D /* MenuOptionCell.swift in Sources */,
+				70CEC42423140FD500C0A34D /* HomeViewController.swift in Sources */,
+				70CEC4292314118800C0A34D /* MainViewController.swift in Sources */,
+				70CEC42D231415E000C0A34D /* HourlyForecastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +516,7 @@
 		};
 		70CEC41D23140F2200C0A34D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ACCA72DBAA85707B1F2698 /* Pods-OpenWeatherTheMapsGusti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +535,7 @@
 		};
 		70CEC41E23140F2200C0A34D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56D16D454E9B87353D477487 /* Pods-OpenWeatherTheMapsGusti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

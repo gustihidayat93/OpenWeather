@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  OpenWeatherTheMapsGusti
 //
-//  Created by Ari Munandar on 26/08/19.
+//  Created by Gusti Hidayat on 26/08/19.
 //  Copyright © 2019 Gusti Hidayat. All rights reserved.
 //
 
@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = ContainerController()
         return true
     }
 
